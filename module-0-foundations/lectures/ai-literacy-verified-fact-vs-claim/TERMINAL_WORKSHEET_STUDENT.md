@@ -29,6 +29,8 @@ $ rm -rf old_data/
 
 *Context: wc -l is read-only and reversible-by-default — a much lower-stakes command to practice the same approve/reject habit on.*
 
+**AI Mode:** Try Without AI
+
 *Complete the TODOs below as you work through this step.*
 
 ```bash
@@ -38,6 +40,8 @@ $ rm -rf old_data/
 ## Verify Against the Real File
 
 *Context: This is literally the verification step — running the real command yourself instead of trusting a claim about the file.*
+
+**AI Mode:** Try Without AI
 
 *Complete the TODOs below as you work through this step.*
 

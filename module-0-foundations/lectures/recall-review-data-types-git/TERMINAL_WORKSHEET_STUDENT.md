@@ -16,6 +16,8 @@ No new material today - just you, testing your own memory. You'll work through t
 
 *Context: This is the exact same sequence from the git/GitHub lecture — the point today is doing it without looking it up.*
 
+**AI Mode:** Try Without AI
+
 *Complete the TODOs below as you work through this step.*
 
 ```bash
@@ -26,6 +28,8 @@ No new material today - just you, testing your own memory. You'll work through t
 ## Navigate From Memory
 
 *Context: The same navigation sequence from the first lecture — pwd, ls, cd.*
+
+**AI Mode:** Try Without AI
 
 *Complete the TODOs below as you work through this step.*
 

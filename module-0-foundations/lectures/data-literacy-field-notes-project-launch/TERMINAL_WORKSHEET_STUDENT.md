@@ -3,7 +3,7 @@
 **Module 0: Foundations**
 
 **Learning Objectives:**
-- Set up a real development workflow: terminal, git, GitHub
+- Set up a real development workflow: Terminal, git, GitHub
 - Inspect an unfamiliar dataset carefully and honestly
 - Ask one specific, checkable data-quality question
 
@@ -35,6 +35,8 @@ exactly what I expect, no surprises.
 *⚠️ Not auto-validated: <your-new-repo-url>/<your-new-repo-name> are placeholders you swap for your own real repo - not runnable as literally written.*
 
 *Context: <your-new-repo-url>/<your-new-repo-name> are placeholders — swap in your own repo's real values, they're different for everyone.*
+
+**AI Mode:** Try Without AI
 
 *Complete the TODOs below as you work through this step.*
 

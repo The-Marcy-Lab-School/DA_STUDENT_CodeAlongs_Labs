@@ -17,6 +17,8 @@ A teammate hands you a folder of files and asks, "can you tell me what shape thi
 
 *Context: Same file from the environment-setup lecture — every row has the exact same columns: country, year, iso_code, and so on.*
 
+**AI Mode:** Try Without AI, Then Tutor If Stuck
+
 *Complete the TODOs below as you work through this step.*
 
 ```bash
@@ -26,6 +28,8 @@ A teammate hands you a folder of files and asks, "can you tell me what shape thi
 ## Look at Unstructured Text
 
 *Context: A single free-text sentence — no columns, no fixed fields to compare row to row.*
+
+**AI Mode:** Try Without AI, Then Tutor If Stuck
 
 *Complete the TODOs below as you work through this step.*
 
@@ -38,6 +42,8 @@ $ echo "Great class today, the git demo finally clicked for me!" > note.txt
 
 *Context: grep searches text for a pattern — here, finding the word "git" inside the free-text note.*
 
+**AI Mode:** Try Without AI, Then Tutor If Stuck
+
 *Complete the TODOs below as you work through this step.*
 
 ```bash
@@ -47,6 +53,8 @@ $ echo "Great class today, the git demo finally clicked for me!" > note.txt
 ## Row Count vs. Word Count
 
 *Context: wc -l counts lines (rows) — a natural unit for structured data. wc -w counts words — a more natural unit for free text.*
+
+**AI Mode:** Try Without AI, Then Tutor If Stuck
 
 *Complete the TODOs below as you work through this step.*
 

@@ -17,6 +17,8 @@ You're starting your first week as a data analyst, and IT just handed you a blan
 
 *Context: code --version only works once VS Code's 'code' command is installed to your PATH — the setup guide covers this. If the two git config lines print nothing, set them now: git config --global user.name "Your Name" and git config --global user.email "you@example.com" — without this, the first real commit in the git lecture will fail with a real, confusing error.*
 
+**AI Mode:** Try Without AI, Then Tutor If Stuck
+
 *Complete the TODOs below as you work through this step.*
 
 ```bash
@@ -40,6 +42,8 @@ $ head -n 3 data/energy_sample.csv
 ## Find Your Way Around
 
 *Context: pwd prints your current folder; ls lists what's in it; cd moves into another folder.*
+
+**AI Mode:** Try Without AI, Then Tutor If Stuck
 
 *Complete the TODOs below as you work through this step.*
 

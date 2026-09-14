@@ -17,6 +17,8 @@ You just finished your first real line of analysis code, and you really don't wa
 
 *Context: git init creates a hidden .git folder — that's where all the history actually lives.*
 
+**AI Mode:** Try Without AI, Then Tutor If Stuck
+
 *Complete the TODOs below as you work through this step.*
 
 ```bash
@@ -29,6 +31,8 @@ $ cd my-first-repo
 
 *Context: git status is the single most useful command in git — run it constantly, it never changes anything, it just tells you what's going on.*
 
+**AI Mode:** Try Without AI, Then Tutor If Stuck
+
 *Complete the TODOs below as you work through this step.*
 
 ```bash
@@ -40,6 +44,8 @@ $ git status
 
 *Context: The -m flag lets you write the commit message inline. Make it describe WHAT changed, not "update" or "stuff."*
 
+**AI Mode:** Try Without AI, Then Tutor If Stuck
+
 *Complete the TODOs below as you work through this step.*
 
 ```bash
@@ -50,6 +56,8 @@ $ git commit -m ""
 ## See Exactly What Changed
 
 *Context: git diff only shows changes to files git is already tracking — README.md is tracked now that it's been committed once, so this edit shows a real +/- line diff.*
+
+**AI Mode:** Try Without AI, Then Tutor If Stuck
 
 *Complete the TODOs below as you work through this step.*
 
@@ -64,6 +72,8 @@ $ echo "More notes coming soon." >> README.md
 
 *Context: <your-repo-url> is a placeholder — swap in the real URL GitHub just gave you, it's different for everyone.*
 
+**AI Mode:** Try Without AI, Then Tutor If Stuck
+
 *Complete the TODOs below as you work through this step.*
 
 ```bash
@@ -76,6 +86,8 @@ $ git push -u origin main
 ## See Your Own History
 
 *Context: --oneline shows one line per commit instead of the full detailed view — easier to scan.*
+
+**AI Mode:** Try Without AI, Then Tutor If Stuck
 
 *Complete the TODOs below as you work through this step.*
 
