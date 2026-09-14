@@ -4,6 +4,50 @@ This is your working repo for code-alongs (from lecture) and labs
 (in-class practice) — starter files you actually type into, not a reference
 you just read.
 
+## Getting Set Up
+
+You'll do your own work in **your own fork** of this repo, not in this one
+directly — that way you can commit and push freely without needing write
+access here, and you can still pull in new modules as they're added.
+
+1. **Fork it**: on this repo's GitHub page, click **Fork** (top right) →
+   confirm. This creates `https://github.com/<your-username>/DA_STUDENT_CodeAlongs_Labs`
+   under your own account.
+2. **Clone your fork** to your machine:
+   ```
+   git clone https://github.com/<your-username>/DA_STUDENT_CodeAlongs_Labs.git
+   cd DA_STUDENT_CodeAlongs_Labs
+   ```
+3. **Point at the original repo too** (so you can pull new modules later —
+   this is called an `upstream` remote):
+   ```
+   git remote add upstream https://github.com/The-Marcy-Lab-School/DA_STUDENT_CodeAlongs_Labs.git
+   ```
+4. **Do your work, then commit and push to your own fork** (`origin`, not
+   `upstream` — you don't have write access to the original, and you
+   shouldn't):
+   ```
+   git add .
+   git commit -m "Complete Module 0 dev environment worksheet"
+   git push origin main
+   ```
+
+### Getting new modules later
+
+Only the module(s) currently in progress live in this repo — a new module
+gets added once it's ready, not all at once. When that happens, pull it into
+your fork:
+
+```
+git fetch upstream
+git merge upstream/main
+git push origin main
+```
+
+If you've been editing files that also changed upstream, git will ask you to
+resolve the conflict the normal way — keep your own answers/work, take the
+new files/structure from upstream.
+
 ## Repo structure
 
 ```
@@ -67,45 +111,3 @@ before running it.
 
 A `...STUDENT.ipynb` notebook doesn't need this — each cell is already a
 real, runnable code cell in Jupyter, no fence syntax involved.
-
-## Getting set up: fork this repo, then clone your fork
-
-You'll do your own work in **your own fork** of this repo, not in this one
-directly — that way you can commit and push freely without needing write
-access here, and you can still pull in new modules as they're added.
-
-1. **Fork it**: on this repo's GitHub page, click **Fork** (top right) →
-   confirm. This creates `https://github.com/<your-username>/DA_STUDENT_CodeAlongs_Labs`
-   under your own account.
-2. **Clone your fork** to your machine:
-   ```
-   git clone https://github.com/<your-username>/DA_STUDENT_CodeAlongs_Labs.git
-   cd DA_STUDENT_CodeAlongs_Labs
-   ```
-3. **Point at the original repo too** (so you can pull new modules later —
-   this is called an `upstream` remote):
-   ```
-   git remote add upstream https://github.com/The-Marcy-Lab-School/DA_STUDENT_CodeAlongs_Labs.git
-   ```
-4. **Do your work, then commit and push to your own fork** (`origin`, not
-   `upstream` — you don't have write access to the original, and you
-   shouldn't):
-   ```
-   git add .
-   git commit -m "Complete Module 0 dev environment worksheet"
-   git push origin main
-   ```
-
-## Getting new modules later
-
-When a new module gets added to the original repo, pull it into your fork:
-
-```
-git fetch upstream
-git merge upstream/main
-git push origin main
-```
-
-If you've been editing files that also changed upstream, git will ask you to
-resolve the conflict the normal way — keep your own answers/work, take the
-new files/structure from upstream.
